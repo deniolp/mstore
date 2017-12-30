@@ -15,6 +15,7 @@ body {
   font-size: 12px;
   line-height: 20px;
   font-weight: 300;
+  color: #636363;
 }
 
 a {
@@ -44,4 +45,78 @@ input[type="radio"].visually-hidden {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.uphead {
+  font-size: 10px;
+  line-height: 1em;
+  font-weight: 300;
+  color: #d7d7d7;
+  background-color: #31353d;
+}
+
+.header-settings span:nth-child(2n) {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.main-navigation {
+  color: #464646;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.cart-price {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1em;
+  color: #252525;
+}
+
+.banner {
+  background-color: #9cdfce;
+}
+
+.banner-wrapper {
+  width: 1200px;
+  min-height: 630px;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+}
+
+.banner-outline p:first-child {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 72px;
+  font-weight: 800;
+  color: #31415c;
+}
+
+.banner-outline p:nth-child(2) {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 800;
+  color: #31415c;
+}
+
+.banner-outline p:nth-child(3) {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 72px;
+  font-weight: 300;
+  color: #252525;
+}
+
+.banner-outline a {
+  font-size: 10px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1em;
 }

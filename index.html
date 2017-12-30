@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title> Магазин MStore</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Roboto:300,300i,500,700,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700,800%7CRoboto:300,300i,500,700,900">
   <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -13,20 +13,22 @@
   <header>
     <section class="uphead">
       <h2 class="visually-hidden">Блок с информацией с контактами и другими настройками</h2>
-      <p class="header-contacts">
-        <span>(+84).898.058.000</span>
-        <span>min101092@gmail.com</span>
-      </p>
-      <p class="header-settings">
-        <span>Language:</span>
-        <span>ENG</span>
-        <span>Currency:</span>
-        <span>USD</span>
-      </p>
+      <div class="container">
+        <p class="header-contacts">
+          <span>(+84).898.058.000</span>
+          <span>min101092@gmail.com</span>
+        </p>
+        <p class="header-settings">
+          <span>Language:</span>
+          <span>ENG</span>
+          <span>Currency:</span>
+          <span>USD</span>
+        </p>
+    </div>
     </section>
-    <nav class="main-navigation">
+    <nav class="main-navigation container">
       <h2 class="visually-hidden">Главная навигация по сайту магазина MStore</h2>
-      <img src="#" alt="Логотип магазина MStore" width="92" height="24">
+      <img src="img/logo.png" alt="Логотип магазина MStore" width="92" height="24">
       <ul class="site-navigation">
         <li>Home</li>
         <li>Men</li>
@@ -39,18 +41,22 @@
         <li><span class="visually-hidden">Кнопка вызова окна поиска</span></li>
         <li><span class="visually-hidden">Кнопка вызова окна с профилем</span></li>
         <li><span class="visually-hidden">Кнопка вызова окна с понравившимися товарами</span></li>
-        <li><span class="visually-hidden">Кнопка вызова корзины с товарами</span></li>
+        <li><span class="visually-hidden">Кнопка вызова корзины с товарами</span><span class="cart-price">$0.00</span></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main >
     <section class="banner">
       <h2 class="visually-hidden">Баннер со слоганами магазина и ссылкой</h2>
-      <p>WE MAKE IT EASY TO EXPRIENCE CREATIVITY</p>
-      <p>Stylish new design.</p>
-      <p>Order online and have your products delivered to your closest store for free...</p>
-      <a href="#" class="banner-link">Shopping now</a>
+      <div class="banner-wrapper container">
+        <div class="banner-outline">
+          <p>WE MAKE IT EASY TO EXPRIENCE CREATIVITY</p>
+          <p>Stylish new design.</p>
+          <p>Order online and have your products delivered to your closest store for free...</p>
+          <a href="#" class="banner-link">Shopping now</a>
+        </div>
+      </div>
     </section>
     <section class="features">
       <h2 class="visually-hidden">Преимущества нашего магазина</h2>
@@ -78,23 +84,23 @@
       <ul class="new-items">
         <li class="new-item">
           <img src="#" alt="Новая футболка для мальчиков" width="570" height="400">
-          <p>
+          <div>
             <span class="new-arrival">NEW ARRIVALS</span>
             <h3>SHIRT FOR BOY’S</h3>
             <span class="new-arrival-price">$99.00</span>
             <p>Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers. Whether you’re searching for a special occasion...</p>
             <a href="#">Shopping now</a>
-          </p>
+          </div>
         </li>
         <li class="new-item">
           <img src="#" alt="Новая футболка для девочек" width="570" height="400">
-          <p>
+          <div>
             <span class="new-arrival">NEW ARRIVALS</span>
             <h3>SHIRT FOR GIRL’S</h3>
             <span class="new-arrival-price">$99.00</span>
             <p>Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers. Whether you’re searching for a special occasion...</p>
             <a href="#">Shopping now</a>
-          </p>
+          </div>
         </li>
       </ul>
       <div class="new-items-bottom">
@@ -237,11 +243,11 @@
     <section class="about-us">
       <h2 class="visually-hidden">Блок о том, почему мы любим наш магазин</h2>
       <div>
-          <h3>we love mstore.</h3>
-          <p>
-            A professional-looking tote for your everyday needs! This Wilsons Leather tote has a canvas look with genuine leather trim and a structured silhouette. Its shiny gold-tone hardware and two-tone design give it extra fashionable flair.
-          </p>
-          <a href="#">discover</a>
+        <h3>we love mstore.</h3>
+        <p>
+          A professional-looking tote for your everyday needs! This Wilsons Leather tote has a canvas look with genuine leather trim and a structured silhouette. Its shiny gold-tone hardware and two-tone design give it extra fashionable flair.
+        </p>
+        <a href="#">discover</a>
       </div>
       <div></div>
     </section>
@@ -335,26 +341,24 @@
       </div>
     </section>
     <section class="subscription">
-      <p>
+      <div>
         <h2>JOIN OUR EMAIL</h2>
-        <span>We only send emails once a month and only about good things.</span>
-      </p>
+        <p>We only send emails once a month and only about good things.</p>
+      </div>
       <p>
         <input type="email" name="email" placeholder="Your email...">
         <button type="button" name="subscription-button" class="subscription-button">sumbit</button>
       </p>
     </section>
   </main>
-  <footer>
+  <footer class="container">
     <section class="footer-main">
       <h2 class="visually-hidden">Основная часть подвала с разной информацией и картой</h2>
       <div class="footer-about-us">
         <img src="#" alt="Логотип магазина MStore" width="92" height="24">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <p>
-          Adress: <span class="footer-contacts">Hanoi, Vietnamese.</span><br>
-          Phone: <span class="footer-contacts">(+084) 898.058.000</span><br>
-          Mail: <span class="footer-contacts">min101092@gmail.com</span>
+          Adress: <span class="footer-contacts">Hanoi, Vietnamese.</span><br> Phone: <span class="footer-contacts">(+084) 898.058.000</span><br> Mail: <span class="footer-contacts">min101092@gmail.com</span>
         </p>
       </div>
       <div class="footer-info">
@@ -376,7 +380,7 @@
       </div>
     </section>
     <section class="footer-socials">
-      <h2>Блок с ссылками на соцсети</h2>
+      <h2 class="visually-hidden">Блок с ссылками на соцсети</h2>
       <ul class="socials">
         <li><a href="#" class="social-button fb-link"><span class="visually-hidden">Фейсбук</span></a></li>
         <li><a href="#" class="social-button tw-link"><span class="visually-hidden">Твиттер</span></a></li>
