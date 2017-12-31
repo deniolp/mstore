@@ -405,7 +405,7 @@ article a,
   font-weight: 500;
   color: #252525;
   letter-spacing: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 28px 0;
   padding: 0;
 }
 
@@ -419,9 +419,68 @@ article a,
 }
 
 .product {
+  position: relative;
   width: 270px;
   min-height: 420px;
   margin-bottom: 25px;
+}
+
+.product-image {
+  width: 270px;
+  height: 350px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+}
+
+.product-1 {
+  background-image: url("../img/p-1.jpg");
+}
+
+.product-2 {
+  background-image: url("../img/p-2.jpg");
+}
+
+.product-3 {
+  background-image: url("../img/p-3.jpg");
+}
+
+.product-4 {
+  background-image: url("../img/p-4.jpg");
+}
+
+.product-5 {
+  background-image: url("../img/p-5.jpg");
+}
+
+.product-6 {
+  background-image: url("../img/p-6.jpg");
+}
+
+.product-7 {
+  background-image: url("../img/p-7.jpg");
+}
+
+.product-8 {
+  background-image: url("../img/p-8.jpg");
+}
+
+.product-hover {
+  display: none;
+  position: absolute;
+  top: 277px;
+  width: 270px;
+  height: 40px;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.product:hover .product-image {
+  height: 366px;
+}
+
+.product:hover .product-hover {
+  display: block;
 }
 
 .products a,
@@ -442,17 +501,18 @@ article a,
 
 .product h3,
 .bestsellers h3 {
+  position: absolute;
+  top: 357px;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
   color: #555555;
   letter-spacing: 0.05em;
-  margin: 13px 0 0 0;
-  padding: 0;
 }
 
 .product-outline {
-  position: relative;
+  position: absolute;
+  top: 390px;
 }
 
 .product-outline span:first-child,
@@ -466,8 +526,8 @@ article a,
 
 .stars {
   position: absolute;
-  top: 3px;
-  right: 2px;
+  top: 0;
+  left: 198px;
   list-style: none;
   width: 70px;
   min-height: 51px;
