@@ -16,6 +16,7 @@ body {
   line-height: 20px;
   font-weight: 300;
   color: #636363;
+  letter-spacing: 0.05em;
 }
 
 a {
@@ -48,16 +49,21 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
 }
 
 .uphead {
   font-size: 10px;
-  line-height: 1em;
+  line-height: 1.2;
   font-weight: 300;
   color: #d7d7d7;
   background-color: #31353d;
+  letter-spacing: 0.075em;
+}
+
+.header-settings {
+  text-transform: uppercase;
 }
 
 .header-settings span:nth-child(2n) {
@@ -68,15 +74,17 @@ img {
 .main-navigation {
   color: #464646;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1.2;
   font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 .cart-price {
   font-size: 11px;
   font-weight: 700;
-  line-height: 1em;
+  line-height: 1.2;
   color: #252525;
+  letter-spacing: 0.05em;
 }
 
 .banner {
@@ -96,6 +104,8 @@ img {
   line-height: 72px;
   font-weight: 800;
   color: #31415c;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .banner-outline p:nth-child(2) {
@@ -104,6 +114,7 @@ img {
   line-height: 72px;
   font-weight: 800;
   color: #31415c;
+  letter-spacing: -0.05em;
 }
 
 .banner-outline p:nth-child(3) {
@@ -112,11 +123,401 @@ img {
   line-height: 72px;
   font-weight: 300;
   color: #252525;
+  letter-spacing: 0;
 }
 
 .banner-outline a {
   font-size: 10px;
   font-weight: 700;
   color: #111111;
-  line-height: 1em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.feature-item {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #252525;
+}
+
+.feature-item h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+.feature-item p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #898989;
+  letter-spacing: 0.075em;
+}
+
+.new-arrival,
+.new-arrival-price {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ff0036;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.new-arrival-price {
+  letter-spacing: 0;
+}
+
+.new-item h3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #252525;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+.new-arrival-price {
+  font-size: 30px;
+}
+
+.new-green {
+  color: #00b8b8;
+}
+
+.new-item p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #636363;
+  letter-spacing: 0.075em;
+}
+
+.new-item a,
+.new-items-bottom a,
+.about-us a,
+article a,
+.subscription-button {
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111111;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.new-items-bottom span {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #f7941d;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.new-items-bottom h3 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #00c8c8;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+.new-items-bottom p {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #636363;
+  letter-spacing: 0.1em;
+}
+
+.products h2,
+.bestsellers h2,
+.blog h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #252525;
+  letter-spacing: 0;
+}
+
+.products a,
+.bestsellers a {
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #636363;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.product h3,
+.bestsellers h3 {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #555555;
+  letter-spacing: 0.05em;
+}
+
+.product-outline span:first-child,
+.bestsellers span:first-child {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #252525;
+  letter-spacing: 0.05em;
+}
+
+.sale-price {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #898989;
+  text-decoration: line-through;
+}
+
+.special-offer {
+  width: 1170px;
+  min-height: 200px;
+  background-image: url("../img/sneakers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.special-offer span:first-of-type {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.special-offer span:nth-of-type(2) {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 300;
+  color: #252525;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  letter-spacing: 0.2em;
+}
+
+.special-offer span:nth-of-type(3) {
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+.special-offer a {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #636363;
+  letter-spacing: 0.1em;
+}
+
+.about-us {
+  display: flex;
+  text-align: center;
+}
+
+.about-us div:first-of-type {
+  width: 585px;
+  min-height: 400px;
+  background-color: #96dbc9;
+}
+
+.about-us div:last-of-type {
+  width: 585px;
+  min-height: 400px;
+  background-color: #6a615a;
+  background-image: url("../img/about-us.jpg");
+}
+
+.about-us h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #31353d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-us p {
+  font-size: 12px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #31353d;
+  letter-spacing: 0.1em;
+}
+
+.summer-sale a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #252525;
+  letter-spacing: 0;
+}
+
+.articles-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-picture {
+  width: 370px;
+  height: 225px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.article-picture-1 {
+  background-image: url("../img/post-1.jpg");
+}
+
+.article-picture-2 {
+  background-image: url("../img/post-2.jpg");
+}
+
+.article-picture-3 {
+  background-image: url("../img/post-3.jpg");
+}
+
+.blog h3 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #252525;
+  letter-spacing: 0.05em;
+}
+
+.date,
+.date + span {
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #636363;
+  letter-spacing: 0.05em;
+}
+
+article p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #898989;
+  letter-spacing: 0.075em;
+}
+
+.subscription {
+  width: 100%;
+  min-height: 202px;
+  background-image: url("../img/subscribe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.subscription-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription-wrapper h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.subscription-wrapper h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.subscription-outline {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.subscription input {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #b7b7b7;
+  letter-spacing: 0.05em;
+}
+
+.subscription-button {
+  color: #ffffff;
+  background-color: #00c8c8;
+  border: none;
+  letter-spacing: 0.1em;
+}
+
+.footer {
+  width: 100%;
+  min-height: 468px;
+  background-color: #363a42;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-about-us {
+  width: 385px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #868686;
+  letter-spacing: 0.075em;
+}
+
+.footer-contacts {
+  color: #e1e1e1;
+}
+
+.footer-info {
+  width: 385px;
+}
+
+.footer-info h3 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.075em;
+}
+
+.footer-info a {
+  font-size: 12px;
+  line-height: 48px;
+  font-weight: 300;
+  color: #cccccc;
+  letter-spacing: 0.075em;
+}
+
+.footer-map {
+  width: 400px;
+  height: 282px;
+  background-image: url("../img/map.png");
 }

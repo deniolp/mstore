@@ -24,7 +24,7 @@
           <span>Currency:</span>
           <span>USD</span>
         </p>
-    </div>
+      </div>
     </section>
     <nav class="main-navigation container">
       <h2 class="visually-hidden">Главная навигация по сайту магазина MStore</h2>
@@ -46,7 +46,7 @@
     </nav>
   </header>
 
-  <main >
+  <main>
     <section class="banner">
       <h2 class="visually-hidden">Баннер со слоганами магазина и ссылкой</h2>
       <div class="banner-wrapper container">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features container">
       <h2 class="visually-hidden">Преимущества нашего магазина</h2>
       <ul class="features-list">
         <li class="feature-item">
@@ -79,7 +79,7 @@
         </li>
       </ul>
     </section>
-    <section class="new">
+    <section class="new container">
       <h2 class="visually-hidden">Новые поступления в нашем магазине</h2>
       <ul class="new-items">
         <li class="new-item">
@@ -95,9 +95,9 @@
         <li class="new-item">
           <img src="#" alt="Новая футболка для девочек" width="570" height="400">
           <div>
-            <span class="new-arrival">NEW ARRIVALS</span>
+            <span class="new-arrival new-green">NEW ARRIVALS</span>
             <h3>SHIRT FOR GIRL’S</h3>
-            <span class="new-arrival-price">$99.00</span>
+            <span class="new-arrival-price new-green">$99.00</span>
             <p>Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers. Whether you’re searching for a special occasion...</p>
             <a href="#">Shopping now</a>
           </div>
@@ -110,7 +110,7 @@
         <a href="#">Shopping now</a>
       </div>
     </section>
-    <section class="products">
+    <section class="products container">
       <h2>Feauture Product</h2>
       <a href="#">All Product</a>
       <ul class="products-list">
@@ -232,15 +232,15 @@
         </li>
       </ul>
     </section>
-    <div class="special-offer">
+    <div class="special-offer container">
       <p>
-        <span>SPORT SHOES COLLECTION</span>
-        <span>ENTIRE SHOES PURCHASE</span>
-        <span>SAVE UP TO $70</span>
+        <span>SPORT SHOES COLLECTION</span><br>
+        <span>ENTIRE SHOES PURCHASE</span><br>
+        <span>SAVE UP TO $70</span><br>
         <a href="#">Click here see all the shoes collection..</a>
       </p>
     </div>
-    <section class="about-us">
+    <section class="about-us container">
       <h2 class="visually-hidden">Блок о том, почему мы любим наш магазин</h2>
       <div>
         <h3>we love mstore.</h3>
@@ -251,7 +251,7 @@
       </div>
       <div></div>
     </section>
-    <section class="bestsellers">
+    <section class="bestsellers container">
       <div>
         <h2>Best Sellers Product</h2>
         <a href="#">All Product</a>
@@ -305,34 +305,34 @@
         <a href="#">discover now</a>
       </div>
     </section>
-    <section class="blog">
+    <section class="blog container">
       <h2>Blog Post’s</h2>
       <div class="articles-wrapper">
         <article>
-          <div class="article-picture"></div>
+          <div class="article-picture article-picture-1"></div>
           <div>
             <h3>Lorem Ipsum Dolor Sitamet</h3>
-            <span>Feb - 23</span>
+            <span class="date">Feb - 23</span>
             <span>2 comment</span>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...</p>
             <a href="#">Read more</a>
           </div>
         </article>
         <article>
-          <div class="article-picture"></div>
+          <div class="article-picture article-picture-2"></div>
           <div>
             <h3>Lorem Ipsum Dolor Sitamet</h3>
-            <span>Feb - 23</span>
+            <span class="date">Feb - 23</span>
             <span>2 comment</span>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...</p>
             <a href="#">Read more</a>
           </div>
         </article>
         <article>
-          <div class="article-picture"></div>
+          <div class="article-picture article-picture-3"></div>
           <div>
             <h3>Lorem Ipsum Dolor Sitamet</h3>
-            <span>Feb - 23</span>
+            <span class="date">Feb - 23</span>
             <span>2 comment</span>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...</p>
             <a href="#">Read more</a>
@@ -341,24 +341,26 @@
       </div>
     </section>
     <section class="subscription">
-      <div>
-        <h2>JOIN OUR EMAIL</h2>
-        <p>We only send emails once a month and only about good things.</p>
+      <div class="subscription-wrapper container">
+        <div class="subscription-outline">
+          <h2>JOIN OUR EMAIL</h2>
+          <p>We only send emails once a month and only about good things.</p>
+        </div>
+        <p>
+          <input type="email" name="email" placeholder="Your email...">
+          <button type="button" name="subscription-button" class="subscription-button">sumbit</button>
+        </p>
       </div>
-      <p>
-        <input type="email" name="email" placeholder="Your email...">
-        <button type="button" name="subscription-button" class="subscription-button">sumbit</button>
-      </p>
     </section>
   </main>
-  <footer class="container">
-    <section class="footer-main">
+  <footer class="footer">
+    <section class="footer-main container">
       <h2 class="visually-hidden">Основная часть подвала с разной информацией и картой</h2>
       <div class="footer-about-us">
-        <img src="#" alt="Логотип магазина MStore" width="92" height="24">
+        <img src="img/logo-w.png" alt="Логотип магазина MStore" width="92" height="24">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <p>
-          Adress: <span class="footer-contacts">Hanoi, Vietnamese.</span><br> Phone: <span class="footer-contacts">(+084) 898.058.000</span><br> Mail: <span class="footer-contacts">min101092@gmail.com</span>
+          Address: <span class="footer-contacts">Hanoi, Vietnamese.</span><br> Phone: <span class="footer-contacts">(+084) 898.058.000</span><br> Mail: <span class="footer-contacts">min101092@gmail.com</span>
         </p>
       </div>
       <div class="footer-info">
@@ -379,7 +381,7 @@
       <div class="footer-map">
       </div>
     </section>
-    <section class="footer-socials">
+    <section class="footer-socials container">
       <h2 class="visually-hidden">Блок с ссылками на соцсети</h2>
       <ul class="socials">
         <li><a href="#" class="social-button fb-link"><span class="visually-hidden">Фейсбук</span></a></li>
