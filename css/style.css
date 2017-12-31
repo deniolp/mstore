@@ -54,12 +54,23 @@ img {
 }
 
 .uphead {
+  min-height: 46px;
   font-size: 10px;
   line-height: 1.2;
   font-weight: 300;
   color: #d7d7d7;
   background-color: #31353d;
   letter-spacing: 0.075em;
+}
+
+.uphead-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header-contacts span:first-child {
+  margin-right: 23px;
 }
 
 .header-settings {
@@ -71,12 +82,45 @@ img {
   color: #ffffff;
 }
 
+.header-settings span:first-child {
+  margin-right: 4px;
+}
+
+.header-settings span:nth-child(3) {
+  margin-left: 20px;
+}
+
+.header-settings span:nth-child(4) {
+  margin-right: 7px;
+}
+
 .main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
+}
+
+.main-navigation a {
   color: #464646;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
   letter-spacing: 0.05em;
+}
+
+.site-navigation,
+.user-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation {
+  width: 535px;
+  margin-left: -60px;
 }
 
 .cart-price {
@@ -92,10 +136,17 @@ img {
 }
 
 .banner-wrapper {
-  width: 1200px;
+  width: 1170px;
   min-height: 630px;
   background-image: url("../img/banner.jpg");
   background-position: center;
+  padding-top: 110px;
+  padding-left: 101px;
+}
+
+.banner-outline p {
+  margin: 0;
+  padding: 0;
 }
 
 .banner-outline p:first-child {
@@ -106,15 +157,18 @@ img {
   color: #31415c;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-bottom: -15px;
 }
 
 .banner-outline p:nth-child(2) {
+  width: 245px;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 72px;
   line-height: 72px;
   font-weight: 800;
   color: #31415c;
   letter-spacing: -0.05em;
+  margin-bottom: -2px;
 }
 
 .banner-outline p:nth-child(3) {
@@ -124,6 +178,7 @@ img {
   font-weight: 300;
   color: #252525;
   letter-spacing: 0;
+  margin-bottom: -7px;
 }
 
 .banner-outline a {
@@ -135,24 +190,82 @@ img {
   letter-spacing: 0.1em;
 }
 
+.features {
+  min-height: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-list {
+  width: 570px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .feature-item {
+  width: 285px;
+  margin: 0;
+  padding-top: 26px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.features-list li:nth-child(2n+1) {
+  padding-left: 70px;
+}
+
+.features-list li:nth-child(2n) {
+  padding-left: 85px;
+}
+
+.feature-item h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -3px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
   color: #252525;
-}
-
-.feature-item h3 {
   text-transform: uppercase;
   letter-spacing: 0.075em;
 }
 
 .feature-item p {
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   line-height: 18px;
   font-weight: 300;
   color: #898989;
   letter-spacing: 0.075em;
+}
+
+.new {
+  margin-bottom: 54px;
+}
+
+.new-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.new-2 {
+  padding: 68px 0 0 20px;
+}
+
+ .new-1 {
+  text-align: right;
+  padding: 68px 13px 0 0;
+}
+
+.new-1 h3 {
+  padding-right: -3px;
 }
 
 .new-arrival,
@@ -170,6 +283,17 @@ img {
   letter-spacing: 0;
 }
 
+.new-item {
+  position: relative;
+  width: 570px;
+  min-height: 400px;
+}
+
+.new-item img {
+  position: absolute;
+  z-index: -1;
+}
+
 .new-item h3 {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 30px;
@@ -178,6 +302,8 @@ img {
   color: #252525;
   text-transform: uppercase;
   letter-spacing: -0.05em;
+  margin: -5px 0 12px 0;
+  padding: 0;
 }
 
 .new-arrival-price {
@@ -195,6 +321,14 @@ img {
   font-weight: 300;
   color: #636363;
   letter-spacing: 0.075em;
+  word-wrap: normal;
+  width: 210px;
+  margin: 16px 0 29px auto;
+  padding: 0;
+}
+
+.new-2 p {
+  margin: 16px auto 29px 0;
 }
 
 .new-item a,
@@ -208,6 +342,22 @@ article a,
   color: #111111;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+.new-1 a {
+  padding-right: 16px;
+}
+
+.new-items-bottom {
+  margin-top: 30px;
+  min-height: 260px;
+  background-image: url("../img/shoes.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new-items-bottom div {
+  padding: 57px 0 35px 67px;
 }
 
 .new-items-bottom span {
@@ -226,6 +376,8 @@ article a,
   color: #00c8c8;
   text-transform: uppercase;
   letter-spacing: -0.05em;
+  margin: -7px 0 7px 0;
+  padding: 0;
 }
 
 .new-items-bottom p {
@@ -234,6 +386,15 @@ article a,
   font-weight: 300;
   color: #636363;
   letter-spacing: 0.1em;
+  width: 575px;
+  margin: 0;
+  padding: 0;
+  padding-left: 3px;
+  margin-bottom: 31px;
+}
+
+.products {
+  position: relative;
 }
 
 .products h2,
@@ -244,6 +405,23 @@ article a,
   font-weight: 500;
   color: #252525;
   letter-spacing: 0;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.products-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 270px;
+  min-height: 415px;
+  margin-bottom: 30px;
 }
 
 .products a,
@@ -256,6 +434,12 @@ article a,
   letter-spacing: 0.05em;
 }
 
+.all-products {
+  position: absolute;
+  top: 13px;
+  right: 3px;
+}
+
 .product h3,
 .bestsellers h3 {
   font-size: 14px;
@@ -263,6 +447,12 @@ article a,
   font-weight: 300;
   color: #555555;
   letter-spacing: 0.05em;
+  margin: 13px 0 0 0;
+  padding: 0;
+}
+
+.product-outline {
+  position: relative;
 }
 
 .product-outline span:first-child,
@@ -272,6 +462,33 @@ article a,
   font-weight: 500;
   color: #252525;
   letter-spacing: 0.05em;
+}
+
+.stars {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  list-style: none;
+  width: 70px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.yellow-star {
+  width: 11px;
+  height: 11px;
+  background-image: url("../img/yellow-star.svg");
+  cursor: pointer;
+}
+
+.grey-star {
+  width: 11px;
+  height: 11px;
+  background-image: url("../img/grey-star.svg");
+  cursor: pointer;
 }
 
 .sale-price {
