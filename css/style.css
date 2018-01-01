@@ -69,11 +69,22 @@ img {
     padding-top: 15px;
 }
 
-.header-contacts span:first-child {
+.number {
+  position: relative;
   margin-right: 23px;
 }
 
+.number::after {
+  content: "";
+  position: absolute;
+  left: 105px;
+  width: 2px;
+  height: 10px;
+  background-color: #7e8185;
+}
+
 .header-settings {
+  position: relative;
   text-transform: uppercase;
 }
 
@@ -84,6 +95,15 @@ img {
 
 .header-settings span:first-child {
   margin-right: 4px;
+}
+
+.eng::after {
+  content: "";
+  position: absolute;
+  left: 97px;
+  width: 2px;
+  height: 10px;
+  background-color: #7e8185;
 }
 
 .header-settings span:nth-child(3) {
@@ -924,6 +944,24 @@ article a {
   font-weight: 300;
   color: #cccccc;
   letter-spacing: 0.075em;
+}
+
+.footer-info-list {
+  list-style: none;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-info-list li {
+  width: 150px;
+}
+
+.footer-info h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-map {
