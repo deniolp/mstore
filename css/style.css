@@ -505,7 +505,14 @@ article a,
   padding-top: 10px;
 }
 
-.product-hover-links li {
+.hover-link {
+  width: 20px;
+  height: 18px;
+}
+
+.hover-link a {
+  display: inline-block;
+  vertical-align: middle;
   width: 20px;
   height: 18px;
 }
