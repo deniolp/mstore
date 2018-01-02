@@ -969,3 +969,8 @@ article a {
   height: 282px;
   background-image: url("../img/map.png");
 }
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
