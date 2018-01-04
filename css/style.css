@@ -54,6 +54,7 @@ img {
 }
 
 .uphead {
+  width: 100vw;
   min-height: 46px;
   font-size: 10px;
   line-height: 1.2;
@@ -1073,7 +1074,7 @@ article a {
 }
 
 .subscription {
-  width: 100%;
+  width: 100vw;
   min-height: 202px;
   background-image: url("../img/subscribe.jpg");
   background-position: center;
