@@ -677,7 +677,7 @@ article a::after {
 }
 
 .product-hover-links li:nth-child(2) {
-  background-image: url("../img/p-wishlist.svg");
+  background-image: url("../img/wishlist.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
