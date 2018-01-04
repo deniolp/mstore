@@ -425,7 +425,7 @@ article a,
   font-weight: 500;
   color: #252525;
   letter-spacing: 0;
-  margin: 0 0 28px 0;
+  margin: 0 0 30px 0;
   padding: 0;
 }
 
@@ -951,6 +951,7 @@ article a {
 .footer-main {
   display: flex;
   justify-content: space-between;
+  padding: 50px 0 0 33px;
 }
 
 .footer-about-us {
@@ -962,12 +963,24 @@ article a {
   letter-spacing: 0.075em;
 }
 
+.footer-about-us p {
+  margin: 0;
+  padding: 0;
+  padding-top: 17px;
+  width: 290px;
+}
+
+.footer-about-us p:first-of-type {
+  margin-bottom: 19px;
+}
+
 .footer-contacts {
   color: #e1e1e1;
 }
 
 .footer-info {
   width: 385px;
+  margin-left: -12px;
 }
 
 .footer-info h3 {
@@ -976,6 +989,9 @@ article a {
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.075em;
+  margin: 0;
+  padding: 0;
+  padding-top: 9px;
 }
 
 .footer-info a {
@@ -988,29 +1004,81 @@ article a {
 
 .footer-info-list {
   list-style: none;
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-top: 35px;
 }
 
 .footer-info-list li {
   width: 150px;
 }
 
-.footer-info h3 {
-  margin: 0;
-  padding: 0;
+.footer-info-list li:nth-child(2n+1) {
+  margin-right: 50px;
 }
 
 .footer-map {
   width: 400px;
   height: 282px;
   background-image: url("../img/map.png");
+  margin-top: 45px;
 }
 
 .socials {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  width: 295px;
+  margin: 0;
+  padding: 28px 0 0 30px;
+}
+
+.socials li,
+.social-button {
+  width: 23px;
+  height: 15px;
+}
+
+.social-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fb-link {
+  background-image: url("../img/facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tw-link {
+  background-image: url("../img/twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.insta-link {
+  background-image: url("../img/instagram.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.yt-link {
+  background-image: url("../img/youtube.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gp-link {
+  background-image: url("../img/gp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bh-link {
+  background-image: url("../img/behance.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
